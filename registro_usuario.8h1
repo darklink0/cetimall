@@ -1,0 +1,31 @@
+<h3>Registrate.</h3>
+    <form method="POST" action="#" id="registro">
+      <div class="nombre">
+        Nombre:
+		<input type="text" placeholder="Luis Alan" name="nombre" id="nombre"/>
+      </div>
+      <div class="apellido">
+        Apellidos:
+		<input type="text" placeholder="Castañeda Vargas" name="apellidos" id="apellidos"/>
+      </div>
+      <div class="telefono">
+        Tel&eacute;fono:
+		<input type="text" placeholder="36601804" name="telefono" id="telefono"/>
+      </div>
+      <div class="correo">
+        Correo:
+		<input type="text" placeholder="correo@hotmail.com" name="correo" id="correo"/>
+      </div>
+      <div class="usuario">
+        Usuario:
+		<input type="text" placeholder="Arklin12" name="usuario" id="usuario"/>
+      </div>
+      <div class="password">
+        Contrase&ntilde;a:
+		<input type="password" placeholder="Cocolove11" name="password" id="password"/>
+      </div>
+	  <input type="hidden" value="0"/>
+      <div class="btn">
+          <input type="submit" value="Registrarse" id="registrarse"/>
+      </div>	
+</form>

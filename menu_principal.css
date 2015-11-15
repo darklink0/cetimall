@@ -1,0 +1,97 @@
+#menu
+{ 
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    width: 15%;
+    height: 50%;
+    border: blue 2px double;
+    border-radius: 20px;
+    color: #000;
+    background: rgb(250, 250, 250);
+    
+}
+#botones{
+	width: 98%;
+	height: 70%;
+	font-family: tahoma;
+	font-size: 13px;
+	letter-spacing: 2px;
+	position: absolute;
+	left: 1%;
+	top: 5%;
+}
+#buscar, #iniciar_sesion{
+	margin: 5px;
+}
+#in_buscar{
+	width: 90%;
+}
+#categoria{
+	width: 50%;
+}
+#categoria, #btn_buscar, #in_buscar{
+  margin: 5px;
+}
+#btn_regi_ini, #btn_buscar{
+  font-style: none;
+  text-decoration: none;
+  background: rgb(255, 180, 0);
+  border: 1px solid blue;
+  padding: 5px;
+}
+#iniciar_sesion{
+  position: relative;
+}
+#registrate{
+  top: 15px;
+}
+#btn_regi_ini:hover, #btn_buscar:hover{
+  background: rgb(255, 255, 0);
+}
+#contenido h3{
+  position: relative;
+  left: 45%;
+}
+#registro{
+  width: 65%;
+  height: 65%;
+  position: relative;
+  left: 30%;
+}
+#registrarse{
+  background: rgb(255, 180, 0);  
+  padding: 5px;
+}
+#nombre, #apellidos, #correo{
+  width: 125px;  
+}
+#registro input{
+  border: 1px solid blue;
+}
+#password, #usuario, #telefono{
+  width: 80px;
+}
+#contenido div{
+  margin: 5px;
+}
+.apellido{
+  position: absolute;
+  top: -5px;
+  left: 195px;
+}
+.correo{
+  position:  absolute;
+  top: 20px;
+  left: 160px;
+}
+.password{
+  position:  absolute;
+  top: 45px;
+  left: 148px;
+}
+.btn{
+  position: relative;
+  top: 10px;
+}

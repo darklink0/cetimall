@@ -1,0 +1,68 @@
+#titulo
+{   margin: 0 auto;
+    width: 90%;
+    height: 15%;
+    border: blue 2px double;
+    border-radius: 20px;
+    color: #000;
+    display: block;
+    position: relative;
+    top: 2px;
+    background: rgb(250, 250, 250);    
+}
+#texto{
+   font-family: Tahoma;
+   font-size: 40px;
+   position: absolute;
+   top: 20px;
+   left: 500px;
+   
+}
+#menu
+{ 
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    width: 15%;
+    height: 50%;
+    border: blue 2px double;
+    border-radius: 20px;
+    color: #000;
+    background: rgb(250, 250, 250);
+    
+}
+
+
+#contenido
+{ 
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 22%;   
+    margin: 0 auto; 
+    width: 73%;
+    height: 50%;
+    border: blue 2px double;
+    border-radius: 20px;
+    color: #000;
+   background: rgb(250, 250, 250);
+}
+
+#piedepag
+{ 
+    display: block;
+    position: absolute;
+    top: 78%;
+    left: 5%;
+    width: 90%;
+    bottom: 5%;
+    height: 20%;
+    border: blue 2px double;
+    border-radius: 20px;
+    color: #000;
+  background: rgb(250, 250, 250);
+}
+body{
+    background: rgb(255, 180, 0);
+}
