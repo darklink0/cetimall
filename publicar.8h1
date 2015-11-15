@@ -1,0 +1,93 @@
+<center>
+	<br/>
+	<p><h2 style="font-family: TimesNewRoman;">Publicar art&#237;culo:</h2></p>
+	<form method="POST" action="index.php">
+		<table border="0">
+			<tr>
+				<td align="right"><font color="red">*</font></td>
+				<td>
+		<input 
+		style="width: 300px;
+		min-height:20px;
+		padding:7px 8px;
+		font-size:13px;
+		color:#333;
+		vertical-align:middle;
+		background-color:#fff;
+		background-repeat:no-repeat;
+		background-position:right 8px center;
+		border:1px solid #ccc;
+		border-radius:4px;
+		outline:none;
+		font-family: TimesNewRoman;
+		border-color:#69B4EB;
+		box-shadow:inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5)" 
+		type="text"	placeholder="Nombre art&#237;culo" name="nombre" />
+		</td>
+		</tr>
+		<tr>
+			<td align="right"><font color="red">*</font></td>
+			<td>
+		<input min="1"
+		style="width: 300px;
+		min-height:34px;
+		padding:7px 8px;
+		font-size:13px;
+		color:#333;
+		vertical-align:middle;
+		background-color:#fff;
+		background-repeat:no-repeat;
+		background-position:right 8px center;
+		border:1px solid #ccc;
+		border-radius:4px;
+		outline:none;
+		font-family: TimesNewRoman;
+		border-color:#69B4EB;
+		box-shadow:inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5)" 
+		type="number" placeholder="Cantidad" name="cantidad"/>
+		</td>
+		</tr>
+		<tr>
+		<td align="right"><font color="red">*</font>$</td>
+		<td>
+		<input min="1"
+		style="width: 300px;
+		min-height:34px;
+		padding:7px 8px;
+		font-size:13px;
+		color:#333;
+		vertical-align:middle;
+		background-color:#fff;
+		background-repeat:no-repeat;
+		background-position:right 8px center;
+		border:1px solid #ccc;
+		border-radius:4px;
+		outline:none;
+		font-family: TimesNewRoman;
+		border-color:#69B4EB;
+		box-shadow:inset 0 1px 2px rgba(0,0,0,0.075),0 0 5px rgba(81,167,232,0.5)" 
+		type="number" placeholder="Precio" name="precio"/>
+		</td>
+		</tr>
+		<tr>
+		<tfoot>
+		<td colspan="2" align="center">
+		<input
+		style="width: 250px;
+		border-radius: 4px;
+		height: 34px;
+		color:#fff;
+		font-family: TimesNewRoman;
+		text-shadow:0 -1px 0 rgba(0,0,0,0.15);
+		background-color:#2C9FFE;
+		background-image:-webkit-linear-gradient(#0370C0, #2C9FFE);
+		background-image:linear-gradient(#0370C0, #2C9FFE);
+		border-color:#032347"
+		type="submit" value="Publicar" />
+		<input type="hidden" vlaue="publicar"/>
+		</td>
+		</tfoot>
+		</tr>
+		</table>
+	</form>
+</center>
